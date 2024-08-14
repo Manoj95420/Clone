@@ -1,0 +1,18 @@
+img {
+    margin-top: 10px;
+    border-radius: 10px;
+    max-width: 50%;
+}
+
+
+.container{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #030303;
+    color: #fff;
+}
+
+#home-button{
+    /* margin:0 50px 10px 50px ; */
+    margin: 10px;
+}

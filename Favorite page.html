@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Page</title>
+    <link rel="icon" href="imdb icon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="Favorite page.css">
+    <script src="https://kit.fontawesome.com/6c7d80623e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="bg-dark text-white" id="container">
+    <!-- Home and Delete buttons -->
+    <div class="button-container">
+        <a href="home.html" class="home-link">
+            <i class="fa-solid fa-house fa-2x"></i>
+            <button id="home-button" type="button" class="btn btn-primary rounded-pill mt-4">Home</button>
+        </a>
+        <button type="button" id="delete-button" class="btn btn-danger rounded-pill mt-4 mr-7">Delete All</button>
+    </div>
+
+    <!-- Favorite container -->
+    <div class="favorite-container">
+        <div class="horizontal-line"></div>
+        <h1>Favorite Movies!</h1>
+        <h4 class="slogan">"Where Every Frame Tells a Story: Discover, Explore, and Love the Magic of Cinema!"</h4>
+        <p class="description">Dive into a cinematic journey on my favorite movies page, where passion meets entertainment. Discover a curated selection of
+            films that have captured my heart and imagination, ranging from timeless classics to thrilling blockbusters and thought-provoking indie gems.</p>
+        
+        <!-- Add your favorite movies content here -->
+        <div id="favorite-movies" class="row mt-5">
+            <!-- Favorite movies will be dynamically added here -->
+        </div>
+    </div>
+
+    <script src="favorite-script.js"></script>
+</body>
+</html>

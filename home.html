@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="icon"href="imdb icon.png" type="image/x-icon"/>
+        <link rel="stylesheet" href="home-styles.css">
+        <script src="https://kit.fontawesome.com/6c7d80623e.js" crossorigin="anonymous"></script>
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+        <script src = "Movie-page-script.js"></script>
+    </head>
+
+    <body>
+        <div id="header" style="display: inline-block;">
+            <nav>
+                <div class="container"><a href="index.html">
+                    <i class="fa-brands fa-imdb fa-beat fa-4x" style="color: #effb0b;"></i></a>
+                        <ul type="disc"  class="header-list" style="display: inline-block;">
+                            <a href='#'><li>Home</li></a>
+                            <a href='#Hollywood'><li>Hollywood</li></a>
+                            <a href='#Bollywood'><li>Bollywood</li></a>
+                            <a href='#Dubbed'><li>Dubbed</li></a>
+                            <a href='#Genres'><li>Genres</li></a>
+                            <a href='#List'><li>List</li></a>
+                            <a href="Favorite page.html" target="_blank"><button><b>Favorites<b></b></button></a>
+                        </ul>
+            </nav>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- search container -->
+        <div class = "search-container">
+            <div class = "search-element right">
+                <h3><i class="fa-solid fa-magnifying-glass fa-fade " style="color: #eee;"></i></h3>
+                <input type = "text" class = "form-control" placeholder="Search Movie Title ..." id = "movie-search-box" onkeyup="findMovies()" onclick = "findMovies()">
+
+                <div class = "search-list" id = "search-list">
+                    <!-- list here -->
+                    <!-- <div class = "search-list-item">
+                        <div class = "search-item-thumbnail">
+                            <img src = "medium-cover.jpg">
+                        </div>
+                        <div class = "search-item-info">
+                            <h3>Guardians of the Galaxy Vol. 2</h3>
+                            <p>2017</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- end of search container -->
+
+        <!-- result container -->
+        <div class = "container">
+            <div class = "result-container">
+                <div class = "result-grid" id = "result-grid">
+                    <!-- movie information here -->
+                    <!-- <div class = "movie-poster">
+                        <img src = "medium-cover.jpg" alt = "movie poster">
+                    </div>
+                    <div class = "movie-info">
+                        <h3 class = "movie-title">Guardians of the Galaxy Vol. 2</h3>
+                        <ul class = "movie-misc-info">
+                            <li class = "year">Year: 2017</li>
+                            <li class = "rated">Ratings: PG-13</li>
+                            <li class = "released">Released: 05 May 2017</li>
+                        </ul>
+                        <p class = "genre"><b>Genre:</b> Action, Adventure, Comedy</p>
+                        <p class = "writer"><b>Writer:</b> James Gunn, Don Abnett, Andy Lanning</p>
+                        <p class = "actors"><b>Actors: </b>Chris Pratt, Zoe Saldana, Dave Bautista</p>
+                        <p class = "plot"><b>Plot:</b> The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's ecounter with his father the ambitious celestial being Ego.</p>
+                        <p class = "language"><b>Language:</b> English</p>
+                        <p class = "awards"><b><i class = "fas fa-award"></i></b> Nominated for 1 Oscar</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- end of result container -->
+    </div>
+
+
+
+
+
+        <main>
+            <div class="slogan" style="text-align: center;">
+                <h1>Discover a World of Entertainment</h1> <br>
+                    <p style="color: rgb(199, 199, 199);">Explore and enjoy a vast collection of Telugu movies with unparalleled quality and clarity, all in compact file sizes.
+                        perfect for any device.<br><br>
+                        Specially crafted for seamless viewing on smartphones, tablets, and PCs.</p><br>
+                        <p>Beware of fake IMDb apps and websites.</p>
+            </div>
+
+            <div>
+                <h1 id="Hollywood">Hollywood movies :</h1>
+                <h1 id="Bollywood">Bollywood movies :</h1>
+                <h1 id="Dubbed">Dubbed movies :</h1>
+            </div>
+            <div class="information">
+                <p id="Genres" style="font-size: 35px; font-family: sans-serif;">Genres</p>
+                    We update our website regularly to keep you informed about the latest trends and new releases. 
+                    So you can enjoy the cinematic journey with us. You will find the list of genres available here. 
+                    Popular genres are as follows:
+                    <ul>
+                        <li>Action</li>
+                        <li>Adventure</li>
+                        <li>Comedy</li>
+                        <li>Drama</li>
+                        <li>Romance</li>
+                        <li>Thriller</li>
+                    </ul>
+                <p id="List" style="font-size: 35px; font-family: sans-serif;">List</p>
+                    You will find the list of movies in different languages. It will help you to search the movies according to your need. 
+                    There are different types of movies available. If you love to watch in telugu language, you will find the list of movies 
+                    in telugu language. If you like tamil, then the list of tamil movies is available here. If you love to watch Bollywood, 
+                    Hollywood or Malayalam movies, then you will get the information about all the movies here.
+                    <ul>
+                        <li>Telugu</li>
+                        <li>Tamil</li>
+                        <li>Malayalam</li>
+                        <li>Bollywood</li>
+                        <li>Hollywood</li>
+                    </ul>
+                    This is a all in one platform to know the latest trends about all the movies of different languages. 
+                    So you do not need to worry about the latest release. You will get complete information about the latest trend. 
+                    whether it is all about AI related movies or other important updates, you will never miss any information.
+                
+                <p style="font-size: 35px; font-family: sans-serif;">Contents</p>
+                Genres <br>
+                list
+            </div>
+        </main><br><br><br><br>
+
+        <footer>
+            <p>&copy; 2024 IMDb.com. All rights reserved.</p>
+        </footer>
+
+    </body>
+
+    <script src = "home-script.js"></script>
+
+</html>
